@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lamaria-backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-03-20",
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      // We name it SALSA_KV here so it matches the Hono.js code perfectly
+      "binding": "SALSA_KV", 
+      "id": "860bb2d9e4d941348fdcc5f9ac9a9431"
+    }
+  ]
+}
