@@ -1,0 +1,17 @@
+{
+  "name": "lamaria-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.1.1",
+    "ua-parser-js": "^1.0.37"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240320.1",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  }
+}
